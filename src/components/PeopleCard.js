@@ -13,7 +13,7 @@ class PeopleCard extends Component {
                 />
                 <Card.Body>
                     <Card.Title className="product_title">{title}</Card.Title>
-                    <Card.Text>Brand Name </Card.Text>
+                    <Card.Text><Card.Link href="/detail">Brand Name</Card.Link></Card.Text>
                     <Card.Text>Type </Card.Text>
                     <Card.Text>Rs. {price}</Card.Text>
                 </Card.Body>
