@@ -170,3 +170,36 @@ input {
 .xl{
   left:700px;
 }
+
+.checkout-card {
+  width:60%;
+}
+
+.card-img {
+  height: 450px;
+  width: 850px;
+}
+.checkout-body {
+  width: 40%;
+}
+.price-tag{
+  display: inline;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  margin-top:150px;
+  margin-left:50px;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+.checkout-add {
+  width: 50%;
+}
