@@ -8,7 +8,7 @@ function Price() {
                 <p>Delivery Charges :   Rs.450</p>
                 <p>Tax Charges :   Rs.450</p>
                 <p>Total Charges :   Rs.450</p>
-                <Button variant="info" className="checkout-add">Add To Bag</Button>
+                <Button variant="info" className="checkout-add">Place Order</Button>
             </div>     
         );
 }
