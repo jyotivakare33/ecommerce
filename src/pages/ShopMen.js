@@ -8,7 +8,6 @@ function Reviews() {
             <ProductList />
             <ProductList />
             <ProductList />
-
         </div>
     );
 }

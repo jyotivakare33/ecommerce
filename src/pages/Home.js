@@ -2,12 +2,11 @@ import Header from '../components/Header';
 import Carousel from '../components/CarouselHeader';
 import Offers from '../components/Offers';
 
-
 function Home() {
     return (
         <div>
             <Header />
-            <Carousel  />
+            <Carousel />
             <Offers src="https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/12/18/f41ec268-82a7-4d73-9fd9-ed3ba51ef3491608296324367-Jeans.jpg" />
             <Offers src="https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/12/18/c771049f-f98c-4499-a36e-31bd6b5215521608296324405-Kurtas.jpg" />
             <Offers src="https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/12/18/a94d41d4-d1fa-4357-af38-5b22aa62ccff1608296324541-Sports-shoes.jpg" />

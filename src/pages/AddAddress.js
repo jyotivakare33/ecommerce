@@ -1,11 +1,11 @@
 import Header from '../components/Header';
-import CheckoutCart from '../components/CheckoutCart';
+import AddAddress from '../components/AddAddress';
 
 function Checkout() {
     return (
         <div>
             <Header />
-            <CheckoutCart />
+            <AddAddress />
         </div>
     );
 }

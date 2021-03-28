@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import ShopMen from './pages/ShopMen';
 import Detail from './pages/Detail';
 import Checkout from './pages/Checkout';
+import Address from './pages/AddAddress';
+import Payment from './pages/Payment';
 
 function App() {
     return (
@@ -13,6 +15,8 @@ function App() {
                 <Route path="/men" exact component={ShopMen} />
                 <Route path="/detail" exact component={Detail} />
                 <Route path="/checkout" exact component={Checkout} />
+                <Route path="/address" exact component={Address} />
+                <Route path="/payment" exact component={Payment} />
             </Switch>
         </Router>
     );

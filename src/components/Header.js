@@ -19,11 +19,12 @@ function Header() {
                 <a href="/" className="nav-links">
                     Jewellery
                 </a>
-                <a href = "/login"> 
-                <img src={user} alt="" href="/checkout" className="header-right" />
+                <a href="/login">
+                    <img src={user} alt="" href="/checkout" className="header-right" />
                 </a>
-                <a href = "/checkout"> 
-                <img src={cart} alt="" className="header-right" /></a>
+                <a href="/checkout">
+                    <img src={cart} alt="" className="header-right" />
+                </a>
             </header>
         </div>
     );
