@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
+import user from '../images/user.png';
 
 class login extends Component {
     state = {
@@ -13,8 +14,8 @@ class login extends Component {
     render() {
         return (
             <>
-                <a href="#" onClick={this.openModal} alt="" className="nav-links">
-                    Login
+                <a href="#" onClick={this.openModal} alt="">
+                    <img src={user} alt="" className="header-right" />
                 </a>
                 <Modal show={this.state.isOpen} onHide={this.closeModal}>
                     <Modal.Header closeButton>

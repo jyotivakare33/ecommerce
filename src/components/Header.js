@@ -1,6 +1,6 @@
 import logo from '../images/logo.png';
-import user from '../images/user.png';
 import cart from '../images/cart.png';
+import Login from './Login';
 
 function Header() {
     return (
@@ -19,9 +19,7 @@ function Header() {
                 <a href="/" className="nav-links">
                     Jewellery
                 </a>
-                <a href="/login">
-                    <img src={user} alt="" href="/checkout" className="header-right" />
-                </a>
+                <Login />
                 <a href="/checkout">
                     <img src={cart} alt="" className="header-right" />
                 </a>
